@@ -3,6 +3,11 @@
     padding: 0px;
 }
 
+body {
+    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
     max-width: 1980px;
     background-color: Pink;
@@ -132,3 +137,63 @@ main {
 #cutomer-service>div {
     text-align: center;
 }
+
+/* sign up section  */
+.full-width {
+    width: 1980px;
+    background-color: pink;
+    padding: 100px 0px;
+}
+
+#signUpSection {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+}
+
+#signUpDetails {
+    text-align: center;
+    width: 50%;
+}
+
+#signUpDetails>h2,
+p,
+button {
+    margin-bottom: 20px;
+}
+
+#off-color {
+    color: #E55473;
+}
+
+/* instagram section */
+#instagramSection {
+    max-width: 1500px;
+    margin: 0 auto;
+
+
+}
+
+#instagramDescription {
+    width: 400px;
+    margin: 0 auto;
+
+
+}
+
+#instagramDescription>h3,
+p {
+    text-align: center;
+    padding: 20px;
+}
+
+.instagramImage>img {
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+/* start subscriber section  */
+#subscriber {}
