@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    max-width: 1980px;
+
     background-color: Pink;
 
 }
@@ -73,9 +73,7 @@ header {
 
 /* end banner styles */
 /* start main section */
-main {
-    max-width: 1980px;
-}
+
 
 .feature-section {
     max-width: 1500px;
@@ -159,7 +157,7 @@ main {
 
 /* sign up section  */
 .full-width {
-    width: 1980px;
+
     background-color: pink;
     padding: 100px 0px;
 }
