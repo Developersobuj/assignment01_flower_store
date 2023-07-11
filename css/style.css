@@ -3,6 +3,7 @@
     padding: 0px;
 }
 
+/* font family */
 body {
     font-family: 'Berkshire Swash', cursive;
     font-family: 'Roboto', sans-serif;
@@ -31,6 +32,10 @@ header {
 .feature-details {
     color: #9D9D9D;
     font-weight: 600;
+}
+
+.off-color {
+    color: #E55473;
 }
 
 /* end common styles */
@@ -127,6 +132,19 @@ main {
     /* margin-right: 20px; */
 }
 
+#flowerName {
+    display: flex;
+    justify-content: space-around;
+}
+
+#flowerName>p {
+    text-decoration: underline;
+    font-weight: 600;
+    color: #050202;
+
+}
+
+/* customer service section */
 #cutomer-service {
     width: 1000px;
     margin: 0 auto;
@@ -166,14 +184,13 @@ button {
     margin-bottom: 20px;
 }
 
-#off-color {
-    color: #E55473;
-}
+
 
 /* instagram section */
 #instagramSection {
     max-width: 1500px;
     margin: 0 auto;
+    margin-top: 100px;
 
 
 }
@@ -195,6 +212,8 @@ p {
     margin-right: 20px;
     border-radius: 30px;
 }
+
+
 
 /* start subscriber section  */
 #subscriber {
@@ -225,13 +244,18 @@ p {
 
 /* start footer styles */
 footer {
-    background-color: aqua;
+    margin-top: 100px;
+    background-color: black;
 }
 
 #footerContent {
     text-align: center;
     width: 400px;
     margin: 0 auto;
-    background-color: #E55473;
+    color: #ffffffff;
     padding: 100px;
+}
+
+#footerContent>h1 {
+    font-size: 40px;
 }
