@@ -75,29 +75,47 @@ main {
     width: 40%;
     text-align: center;
     margin-top: 140px;
+    padding-bottom: 90px;
 }
 
 #feature-flower {
     display: flex;
     justify-content: space-around;
-    justify-content: center bottom;
+    /* justify-content: center center; */
+
 
 }
 
 .flower1 {
     background-color: #F2DEE7;
-
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    border-radius: 50% 50% 0 0;
 
 }
+
+
 
 
 
 .flower2 {
     background-color: #D9EFF1;
-
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    border-radius: 50% 50% 0 0;
+    /* margin-right: 20px; */
 }
 
 .flower3 {
     background-color: #E3EBDB;
-
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    border-radius: 50% 50% 0 0;
+    /* margin-right: 20px; */
 }
